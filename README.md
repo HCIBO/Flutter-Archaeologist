@@ -1,5 +1,13 @@
 # Flutter Archaeologist 🏺
 
+## 🎥 Live Demo / Démo en Direct
+
+**Watch Flutter Archaeologist in action:**
+
+[![ASCIIcast Demo](https://asciinema.org/a/frfDg9Mrbnm9nMKNeuEZUtLPv.svg)](https://asciinema.org/a/frfDg9Mrbnm9nMKNeuEZUtLPv)
+
+*Click the image to view the full interactive demo on asciinema.org*
+
 ## 📖 Overview / Aperçu
 
 **English:**  
