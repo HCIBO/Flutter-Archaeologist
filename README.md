@@ -6,8 +6,6 @@
 
 [![ASCIIcast Demo](https://asciinema.org/a/frfDg9Mrbnm9nMKNeuEZUtLPv.svg)](https://asciinema.org/a/frfDg9Mrbnm9nMKNeuEZUtLPv)
 
-*Click the image to view the full interactive demo on asciinema.org*
-
 ## 📖 Overview / Aperçu
 
 **English:**  
