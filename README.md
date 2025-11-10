@@ -88,7 +88,6 @@ python flutter_decompiler_complete.py your_app.apk --mode generate
 
 ## 🔵 Output Structure / Structure des Sorties
 
-```bash
 temp_extract/          # APK extraction
 snapshots/             # Dart snapshots
 dart_symbols/          # Symbol recovery
