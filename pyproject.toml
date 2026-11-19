@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flutter-archaeologist"
+dynamic = ["version"]
+description = "Recon and attack-surface mapping for Flutter mobile apps (APK/XAPK/AAB/IPA)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+keywords = ["flutter", "dart", "reverse-engineering", "mobile-security", "pentest", "frida", "apk", "ipa"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "Topic :: Security",
+  "License :: OSI Approved :: MIT License",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+flutter-arch = "flutter_archaeologist.cli:main"
+
+[tool.setuptools]
+packages = ["flutter_archaeologist", "flutter_archaeologist.data"]
+
+[tool.setuptools.package-data]
+"flutter_archaeologist.data" = ["*.json"]
+
+[tool.setuptools.dynamic]
+version = {attr = "flutter_archaeologist.__version__"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.urls]
+Homepage = "https://github.com/HCIBO/Flutter-Archaeologist"
+Issues = "https://github.com/HCIBO/Flutter-Archaeologist/issues"

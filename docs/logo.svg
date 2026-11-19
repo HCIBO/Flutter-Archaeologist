@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Flutter Archaeologist">
+<defs>
+<linearGradient id="fa-body" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#E07A3F"/><stop offset="1" stop-color="#A9441E"/>
+</linearGradient>
+<clipPath id="fa-clip"><path d="M54 21h20v10c18 4 28 18 26 35-2 18-15 31-28 38H56c-13-7-26-20-28-38-2-17 8-31 26-35z"/></clipPath>
+</defs>
+<path d="M53 26c-17-5-26 9-16 21" fill="none" stroke="#7A2F14" stroke-width="6" stroke-linecap="round"/>
+<path d="M75 26c17-5 26 9 16 21" fill="none" stroke="#7A2F14" stroke-width="6" stroke-linecap="round"/>
+<rect x="45" y="11" width="38" height="10" rx="4" fill="#7A2F14"/>
+<path d="M54 21h20v10c18 4 28 18 26 35-2 18-15 31-28 38H56c-13-7-26-20-28-38-2-17 8-31 26-35z" fill="url(#fa-body)"/>
+<g clip-path="url(#fa-clip)">
+<rect x="20" y="52" width="90" height="14" fill="#3A2418"/>
+<path d="M28 63l6-8 6 8 6-8 6 8 6-8 6 8 6-8 6 8 6-8 6 8 6-8 6 8" fill="none" stroke="#F4DFC0" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="20" y="72" width="90" height="3" fill="#F4DFC0" opacity=".85"/>
+<rect x="20" y="80" width="90" height="5" fill="#3A2418"/>
+<path d="M40 50c3-9 10-14 18-16-6 6-9 12-10 18z" fill="#FFF3E6" opacity=".35"/>
+</g>
+<rect x="53" y="104" width="22" height="6" rx="2" fill="#7A2F14"/>
+<rect x="45" y="109" width="38" height="7" rx="3.5" fill="#5C2410"/>
+</svg>

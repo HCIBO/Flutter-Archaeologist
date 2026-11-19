@@ -1,0 +1,20 @@
+name: archaeologist_demo
+description: Deliberately leaky demo app used as a test fixture for Flutter Archaeologist.
+publish_to: none
+version: 1.2.3+45
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_dotenv: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/env/app.env
+    - assets/certs/api_pin.pem
+    - assets/config/app_config.json
